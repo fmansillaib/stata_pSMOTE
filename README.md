@@ -41,7 +41,8 @@ En stata llamar, código:
 
 ## Resultado Ejemplo:
 - Sin aplicar el código pSMOTE:
-![foto de cabecera](https://github.com/fmansillaib/stata_pSMOTE/blob/main/1.sin_psmote.png)
+![sin pSMOTE](https://github.com/fmansillaib/stata_pSMOTE/blob/main/1.sin_psmote.png)
 
-- Con aplicar el código pSMOTE:
+- Con aplicar el código pSMOTE (balance 100):
+![con pSMOTE](https://github.com/fmansillaib/stata_pSMOTE/blob/main/1.sin_psmote.png)
 
