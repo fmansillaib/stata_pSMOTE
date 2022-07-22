@@ -1,1 +1,3 @@
-### stata_pSMOTE
+# STATA: proxy de SMOTE (pSMOTE) 
+
+
