@@ -40,6 +40,8 @@ En stata llamar, código:
 3. Solo funciona para variable clase (**var_y**) dicotómica, no así categórica o continua; a no ser que haga la transformación respectiva a dicotómica. 
 
 ## Resultado Ejemplo:
+- Sin aplicar el código pSMOTE:
+![foto de cabecera](https://github.com/fmansillaib/stata_pSMOTE/blob/main/1.sin_psmote.png)
 
-![foto de cabecera](https://drive.google.com/file/d/1825C_fOrv33xBa_0qI-HNAI0pbMecpA_/view)
+- Con aplicar el código pSMOTE:
 
