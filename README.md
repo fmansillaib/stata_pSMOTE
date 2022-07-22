@@ -1,4 +1,4 @@
-# [STATA: proxy de SMOTE (pSMOTE)](https://drive.google.com/drive/folders/15kW1maLs2cRrP2HynBgrp4AzSiW6N0Y-?usp=sharing) 
+# [[STATA]: proxy de SMOTE (pSMOTE)](https://drive.google.com/drive/folders/15kW1maLs2cRrP2HynBgrp4AzSiW6N0Y-?usp=sharing) 
 
 - #### Creado, por: Franco A. Mansilla Ibañez, Chile.
 - email: franco.andres.mansilla@gmail.com
