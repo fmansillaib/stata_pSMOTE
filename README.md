@@ -5,10 +5,10 @@
 - Linkedin: https://www.linkedin.com/in/francomansilla/
 - Medium: https://medium.com/@fmansillaib
 
-## Download Carpeta: 
+## Download Carpeta: [Pincha Aquí](https://drive.google.com/drive/folders/15kW1maLs2cRrP2HynBgrp4AzSiW6N0Y-?usp=sharing)
 - Contenido: Guía de usuario; psmote.ado y Ejemplo_practico.do.
 
-## Descripción del Código: [Pincha Aquí](https://drive.google.com/drive/folders/15kW1maLs2cRrP2HynBgrp4AzSiW6N0Y-?usp=sharing)
+## Descripción del Código: 
 
 1. El código psmote.ado te permitirá  balancear clases de una variable dicotómica que se encuentra desbalanceada. 
 2. El código utiliza una técnica de clusterización para definir el método para crear muestras sintéticas en función de esos clusters.
