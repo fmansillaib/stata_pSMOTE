@@ -44,5 +44,5 @@ En stata llamar, código:
 ![sin pSMOTE](https://github.com/fmansillaib/stata_pSMOTE/blob/main/4.%20Imagenes/1.sin_psmote.png)
 
 - Con aplicar el código pSMOTE (balance 100):
-![con pSMOTE](https://github.com/fmansillaib/stata_pSMOTE/blob/main/4.%20Imagenes/1.sin_psmote.png)
+![con pSMOTE](https://github.com/fmansillaib/stata_pSMOTE/blob/main/4.%20Imagenes/2.con_psmote.png)
 
