@@ -1,9 +1,8 @@
 # [[STATA]: proxy de SMOTE (pSMOTE)](https://drive.google.com/drive/folders/15kW1maLs2cRrP2HynBgrp4AzSiW6N0Y-?usp=sharing) 
 
 - #### Creado, por: Franco A. Mansilla Ibañez, Chile.
-- email: franco.andres.mansilla@gmail.com
-- Linkedin: https://www.linkedin.com/in/francomansilla/
-- Medium: https://medium.com/@fmansillaib
+- website: https://www.francomansilla.com
+
 
 `versión 1.0- 07/2022`
 
@@ -24,7 +23,7 @@
 En stata llamar, código:
 
 ```stata
-  psmote var_x (var's_x), var_y (variable) class_min (#) balance (#) seed (#)
+  psmote var_x's, var_y (variable) class_min (#) balance (#) seed (#)
 ```
 
 - [ ] **var_x:** Señalar la(s) variable(s) en que el código analizara. 
