@@ -1,9 +1,8 @@
-
 * Código de balanceo de clases desequilibradas *
 * creado por: Franco A. Mansilla Ibañez, Chile.
+* www.francomansilla.com
 * Para mayor información leer: Guía de Instalación y Uso. 
 
-program drop psmote
 
 program define psmote, rclass
 version 17
@@ -311,17 +310,17 @@ quietly drop _clus_1
 
 
 display " "
-display "* ------------------------------------- *"
-display "*  Resumen de la Información Utilizada *"
-display "* ------------------------------------- *"
+display "* ~~~~~~~~~~~~~~~~~~~~~~ *"
+display "*  Información Utilizada *"
+display "* ~~~~~~~~~~~~~~~~~~~~~~ *"
 display " "
-display "-> Variable Clase: `var_y'"  
-display "-> Semilla Utilizada: " `seed'
-display "-> Variable(s): `varlist'" 
-display "-> Cantidad de Obs. en equilibrar: " ($total_0 - $total_1)
-display "-> Sample: " "`sample'"
+display "~> var_y: `var_y'"  
+display "~> semilla: " `seed'
+display "~> var_x: `varlist'" 
+display "~> # obs. en agregar: " round((($total_0 - $total_1) * (`balance')/100),1)
+display "~> muestra: " "`sample'"
 display " "
-display "-> Resultado:"
+display "~> Resultado:"
 
 if "`sample'" == "all_sample"{
 	tab `var_y'
@@ -329,14 +328,6 @@ if "`sample'" == "all_sample"{
 if "`sample'" != "all_sample"{
 	tab `var_y' if `sample' == 1
 } 
-
-display " "
-display " "
-display "* creado, por: Franco A. Mansilla Ibañez"
-display "* Linkedin: https://www.linkedin.com/in/francomansilla/"
-display "* Medium: https://medium.com/@fmansillaib"
-
-
 
 end 
  
