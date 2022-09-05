@@ -23,11 +23,12 @@
 En stata llamar, código:
 
 ```stata
-  psmote var_x's, var_y (variable) class_min (#) balance (#) seed (#)
+  psmote var_x's, var_y(variable) class_min(#) balance(#) sample(var_muestra) seed(#)
 ```
 
 - [ ] **var_x:** Señalar la(s) variable(s) en que el código analizara. 
 - [ ] **var_y:** Señalar una única variable (grupo).
+- [ ] **sample:** Señalar variable muestra que contenga una marca con 1 las observaciones a introducir al proceso, si es para toda la muestra, señalar all_sample
 -	[ ] **class_min:** Señalar la cantidad de observaciones que tiene clase minoritaria. 
 -	[ ] **balance:** Señalar el porcentaje a completar la clase desequilibra con respecto a la clase completa (señalar entre 0 a 100 que equivale a 0% a 100%).
 -	[ ] **seed:** Señalar la semilla de iniciación del código. 
